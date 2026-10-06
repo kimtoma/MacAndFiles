@@ -68,4 +68,4 @@ maf ls --device "DEVICE_ID" --storage 65537 --path /Download
 
 maf CLI 使用相同传输引擎，提供 JSON 结果、稳定错误代码与清晰的 USB 会话状态。
 
-[MacAndFiles](https://kimtoma.github.io/MacAndFiles/zh-Hans/) · [CLI](../CLI.md) · [Release](../RELEASING.md)
+[MacAndFiles](https://macandfiles.pages.dev/zh-Hans/) · [CLI](../CLI.md) · [Release](../RELEASING.md)

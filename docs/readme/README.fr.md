@@ -68,4 +68,4 @@ Installez maf via Plus → Terminal et agents. Ajoutez ~/.local/bin au PATH si n
 
 maf partage le moteur de transfert : résultats JSON, erreurs stables et état USB clair pour scripts et agents.
 
-[MacAndFiles](https://kimtoma.github.io/MacAndFiles/fr/) · [CLI](../CLI.md) · [Release](../RELEASING.md)
+[MacAndFiles](https://macandfiles.pages.dev/fr/) · [CLI](../CLI.md) · [Release](../RELEASING.md)

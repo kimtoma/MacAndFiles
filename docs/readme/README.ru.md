@@ -68,4 +68,4 @@ maf ls --device "DEVICE_ID" --storage 65537 --path /Download
 
 maf использует тот же движок: JSON, стабильные коды ошибок и понятный статус USB для скриптов и агентов.
 
-[MacAndFiles](https://kimtoma.github.io/MacAndFiles/ru/) · [CLI](../CLI.md) · [Release](../RELEASING.md)
+[MacAndFiles](https://macandfiles.pages.dev/ru/) · [CLI](../CLI.md) · [Release](../RELEASING.md)

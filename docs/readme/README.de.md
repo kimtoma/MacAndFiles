@@ -68,4 +68,4 @@ maf unter Mehr → Terminal und Agenten installieren. Bei Bedarf ~/.local/bin zu
 
 maf nutzt denselben Motor: JSON-Ergebnisse, stabile Fehlercodes und klarer USB-Sitzungsstatus für Skripte und Agenten.
 
-[MacAndFiles](https://kimtoma.github.io/MacAndFiles/de/) · [CLI](../CLI.md) · [Release](../RELEASING.md)
+[MacAndFiles](https://macandfiles.pages.dev/de/) · [CLI](../CLI.md) · [Release](../RELEASING.md)

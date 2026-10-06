@@ -68,4 +68,4 @@ macOS 14+ के लिए बना। macOS 27.2 पर परीक्षण 
 
 maf वही इंजन उपयोग करता है: JSON परिणाम, स्थिर त्रुटि कोड और स्पष्ट USB स्थिति, स्क्रिप्ट तथा एजेंटों के लिए।
 
-[MacAndFiles](https://kimtoma.github.io/MacAndFiles/hi/) · [CLI](../CLI.md) · [Release](../RELEASING.md)
+[MacAndFiles](https://macandfiles.pages.dev/hi/) · [CLI](../CLI.md) · [Release](../RELEASING.md)

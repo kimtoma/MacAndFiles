@@ -68,4 +68,4 @@ macOS 14+ 向けにビルド。macOS 27.2 で検証済み。旧バージョン�
 
 maf は同じ転送エンジンを使い、JSON 結果、安定したエラーコード、USB セッション状態を提供します。
 
-[MacAndFiles](https://kimtoma.github.io/MacAndFiles/ja/) · [CLI](../CLI.md) · [Release](../RELEASING.md)
+[MacAndFiles](https://macandfiles.pages.dev/ja/) · [CLI](../CLI.md) · [Release](../RELEASING.md)

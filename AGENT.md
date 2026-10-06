@@ -83,3 +83,5 @@ Read docs/CLI.md before changing the maf contract. Keep schemaVersion, stable er
 ## Website
 
 Edit website/assets and the 13 complete website/locales JSON files; scripts/build-site.py regenerates docs/. Never hand-edit generated HTML. scripts/test-site.py checks copy coverage, assets, language URLs and RTL. Keep app screenshots synthetic, explicitly captioned, and sourced from the actual UI. Do not publish personal device screenshots. Public release links must point to an existing matching artifact.
+
+The primary site is https://macandfiles.pages.dev; GitHub Pages remains a mirror. Follow docs/WEBSITE.md for manual Cloudflare deployment. Use the pinned website/package-lock.json and website/wrangler.jsonc; confirm the intended account and production branch before publishing. A Git push does not deploy Cloudflare Pages.

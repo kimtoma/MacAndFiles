@@ -68,4 +68,4 @@ Pasang maf melalui Lainnya → Terminal dan agen. Tambahkan ~/.local/bin ke PATH
 
 maf memakai mesin yang sama: hasil JSON, kode kesalahan stabil dan status sesi USB yang jelas untuk skrip dan agen.
 
-[MacAndFiles](https://kimtoma.github.io/MacAndFiles/id/) · [CLI](../CLI.md) · [Release](../RELEASING.md)
+[MacAndFiles](https://macandfiles.pages.dev/id/) · [CLI](../CLI.md) · [Release](../RELEASING.md)

@@ -105,6 +105,6 @@ Read [AGENT.md](AGENT.md) for architecture, modification points and transfer inv
 
 ## Website and release status
 
-The [multilingual website](https://kimtoma.github.io/MacAndFiles/) includes 13 complete language URLs, browser-language selection, RTL layout and an English fallback. Its app preview uses sample files. Edit `website/locales/` and `website/assets/`, then run `python3 scripts/test-site.py` to regenerate `docs/`.
+The [multilingual website](https://macandfiles.pages.dev/) includes 13 complete language URLs, browser-language selection, RTL layout and an English fallback. Its app preview uses sample files. Edit `website/locales/` and `website/assets/`, then run `python3 scripts/test-site.py` to regenerate `docs/`. Cloudflare Pages deployment instructions are in [docs/WEBSITE.md](docs/WEBSITE.md); the GitHub Pages site remains a mirror.
 
 Public development downloads remain ad-hoc signed until a Developer ID certificate and notarization profile are provided. See [RELEASING.md](docs/RELEASING.md). GUI and CLI still use exclusive USB sessions; a shared session broker and a thin MCP adapter remain future work. Agents can use `maf` now.

@@ -68,4 +68,4 @@ maf ls --device "DEVICE_ID" --storage 65537 --path /Download
 
 يستخدم maf محرك النقل نفسه: نتائج JSON ورموز أخطاء مستقرة وحالة USB واضحة للبرامج والوكلاء.
 
-[MacAndFiles](https://kimtoma.github.io/MacAndFiles/ar/) · [CLI](../CLI.md) · [Release](../RELEASING.md)
+[MacAndFiles](https://macandfiles.pages.dev/ar/) · [CLI](../CLI.md) · [Release](../RELEASING.md)

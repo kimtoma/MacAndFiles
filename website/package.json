@@ -1,0 +1,12 @@
+{
+  "name": "macandfiles-website",
+  "private": true,
+  "scripts": {
+    "build": "python3 ../scripts/build-site.py",
+    "verify": "python3 ../scripts/test-site.py",
+    "deploy": "npm run verify && CLOUDFLARE_ACCOUNT_ID=6b6547787512768c729390139aa756c3 wrangler pages deploy --branch main"
+  },
+  "devDependencies": {
+    "wrangler": "4.147.0"
+  }
+}

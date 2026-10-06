@@ -10,3 +10,7 @@ dist/
 
 __pycache__/
 *.pyc
+
+# Website deployment dependencies and local Cloudflare state
+node_modules/
+.wrangler/

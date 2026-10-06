@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Build a dependency-free, fully translated GitHub Pages site in docs/."""
+"""Build a dependency-free, fully translated static site in docs/."""
 import html, json, pathlib, shutil, hashlib
 ROOT=pathlib.Path(__file__).resolve().parent.parent
 SITE=ROOT/'docs';SOURCE=ROOT/'website'
-URL='https://kimtoma.github.io/MacAndFiles'
+URL='https://macandfiles.pages.dev'
 REPO='https://github.com/kimtoma/MacAndFiles'
 RELEASE=REPO+'/releases/download/v1.0.0-dev.9/MacAndFiles-macOS-arm64.zip'
 LANGUAGES={'en':'English','ko':'한국어','zh-Hans':'简体中文','zh-Hant':'繁體中文','es':'Español','pt-BR':'Português','ja':'日本語','de':'Deutsch','fr':'Français','ru':'Русский','hi':'हिन्दी','id':'Bahasa Indonesia','ar':'العربية'}

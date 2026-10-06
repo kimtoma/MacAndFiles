@@ -100,4 +100,4 @@ macOS 14 이상을 대상으로 빌드했습니다. macOS 27.2에서 검증했�
 
 maf CLI는 같은 전송 엔진을 사용합니다. JSON 결과, 안정적인 오류 코드와 USB 점유 상태로 스크립트와 에이전트의 작업을 돕습니다.
 
-[MacAndFiles](https://kimtoma.github.io/MacAndFiles/ko/) · [CLI](../CLI.md) · [Release](../RELEASING.md)
+[MacAndFiles](https://macandfiles.pages.dev/ko/) · [CLI](../CLI.md) · [Release](../RELEASING.md)

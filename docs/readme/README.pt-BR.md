@@ -68,4 +68,4 @@ Instale maf em Mais → Terminal e agentes. Se necessário, adicione ~/.local/bi
 
 maf compartilha o motor de transferência: resultados JSON, erros estáveis e estado USB claro para scripts e agentes.
 
-[MacAndFiles](https://kimtoma.github.io/MacAndFiles/pt-BR/) · [CLI](../CLI.md) · [Release](../RELEASING.md)
+[MacAndFiles](https://macandfiles.pages.dev/pt-BR/) · [CLI](../CLI.md) · [Release](../RELEASING.md)
