@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Build a dependency-free, fully translated GitHub Pages site in docs/."""
-import html, json, pathlib, shutil
+import html, json, pathlib, shutil, hashlib
 ROOT=pathlib.Path(__file__).resolve().parent.parent
 SITE=ROOT/'docs';SOURCE=ROOT/'website'
 URL='https://kimtoma.github.io/MacAndFiles'
 REPO='https://github.com/kimtoma/MacAndFiles'
 RELEASE=REPO+'/releases/download/v1.0.0-dev.9/MacAndFiles-macOS-arm64.zip'
 LANGUAGES={'en':'English','ko':'한국어','zh-Hans':'简体中文','zh-Hant':'繁體中文','es':'Español','pt-BR':'Português','ja':'日本語','de':'Deutsch','fr':'Français','ru':'Русский','hi':'हिन्दी','id':'Bahasa Indonesia','ar':'العربية'}
+ASSET_VERSIONS={name:hashlib.sha256((SOURCE/'assets'/name).read_bytes()).hexdigest()[:12] for name in ['site.css','site.js']}
 COPY={language:json.loads((SOURCE/'locales'/f'{language}.json').read_text()) for language in LANGUAGES}
 KEYS=set(COPY['en'])
 for language,copy in COPY.items():
@@ -30,7 +31,7 @@ def render(language,entry=False):
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self'; base-uri 'none'; object-src 'none'; form-action 'none'">
 <link rel="canonical" href="{URL}/{language}/">{alternates}<link rel="alternate" hreflang="x-default" href="{URL}/en/">
 <meta property="og:title" content="{title}"><meta property="og:description" content="{c['intro']}"><meta property="og:type" content="website"><meta property="og:url" content="{URL}/{language}/"><meta property="og:image" content="{URL}/assets/icon.png">
-<link rel="icon" type="image/png" href="{base}assets/icon.png"><link rel="stylesheet" href="{base}assets/site.css"><script src="{base}assets/site.js" defer></script></head>
+<link rel="icon" type="image/png" href="{base}assets/icon.png"><link rel="stylesheet" href="{base}assets/site.css?v={ASSET_VERSIONS['site.css']}"><script src="{base}assets/site.js?v={ASSET_VERSIONS['site.js']}" defer></script></head>
 <body data-base="{base}" data-entry="{'true' if entry else 'false'}"><a class="skip" href="#main">{c['skip']}</a><div class="shell">
 <header class="header"><a class="brand" href="{base}{language}/"><img src="{base}assets/icon.png" width="25" height="25" alt="">MacAndFiles</a>
 <nav class="nav"><a class="guide-link" href="#guide">{c['guide']}</a><a class="agent-link" href="#agents">{c['agents']}</a><a href="{REPO}">GitHub ↗</a><div class="language"><label for="language">{c['language']}</label><select id="language">{options}</select></div></nav></header>

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import html.parser, json, pathlib, re, subprocess
+import html.parser, json, pathlib, re, subprocess, urllib.parse
 ROOT=pathlib.Path(__file__).resolve().parent.parent
 subprocess.run(['python3',str(ROOT/'scripts/build-site.py')],check=True)
 class Page(html.parser.HTMLParser):
@@ -22,7 +22,7 @@ for source in (ROOT/'website/locales').glob('*.json'):
  assert page.headings==1 and page.options==13 and len(page.ids)==len(set(page.ids))
  for link in page.links:
   if link.startswith(('https://','http://','#')):continue
-  destination=target.parent/link.split('#')[0]
+  destination=target.parent/urllib.parse.urlsplit(link).path
   assert destination.exists(),(language,link)
  assert target.read_text().count('rel="alternate"')==14
  print('PASS',language,'complete copy, language links, assets, canonical and RTL')
