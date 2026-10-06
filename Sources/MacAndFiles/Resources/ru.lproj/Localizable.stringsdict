@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>search.results</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld результат</string>
+			<key>few</key>
+			<string>%ld результата</string>
+			<key>many</key>
+			<string>%ld результатов</string>
+			<key>other</key>
+			<string>%ld результата</string>
+		</dict>
+	</dict>
+	<key>selection.count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Выбран %ld элемент</string>
+			<key>few</key>
+			<string>Выбрано %ld элемента</string>
+			<key>many</key>
+			<string>Выбрано %ld элементов</string>
+			<key>other</key>
+			<string>Выбрано %ld элемента</string>
+		</dict>
+	</dict>
+	<key>devices.detected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Поиск: %ld устройство</string>
+			<key>few</key>
+			<string>Поиск: %ld устройства</string>
+			<key>many</key>
+			<string>Поиск: %ld устройств</string>
+			<key>other</key>
+			<string>Поиск: %ld устройства</string>
+		</dict>
+	</dict>
+	<key>items.ready</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld элемент · Готово</string>
+			<key>few</key>
+			<string>%ld элемента · Готово</string>
+			<key>many</key>
+			<string>%ld элементов · Готово</string>
+			<key>other</key>
+			<string>%ld элемента · Готово</string>
+		</dict>
+	</dict>
+	<key>upload.started</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Отправка на Android: %ld элемент</string>
+			<key>few</key>
+			<string>Отправка на Android: %ld элемента</string>
+			<key>many</key>
+			<string>Отправка на Android: %ld элементов</string>
+			<key>other</key>
+			<string>Отправка на Android: %ld элемента</string>
+		</dict>
+	</dict>
+	<key>upload.completed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Скопировано на Android · %ld элемент</string>
+			<key>few</key>
+			<string>Скопировано на Android · %ld элемента</string>
+			<key>many</key>
+			<string>Скопировано на Android · %ld элементов</string>
+			<key>other</key>
+			<string>Скопировано на Android · %ld элемента</string>
+		</dict>
+	</dict>
+	<key>download.started</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Сохранение на Mac: %ld элемент</string>
+			<key>few</key>
+			<string>Сохранение на Mac: %ld элемента</string>
+			<key>many</key>
+			<string>Сохранение на Mac: %ld элементов</string>
+			<key>other</key>
+			<string>Сохранение на Mac: %ld элемента</string>
+		</dict>
+	</dict>
+	<key>download.completed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Скопировано на Mac · %ld элемент</string>
+			<key>few</key>
+			<string>Скопировано на Mac · %ld элемента</string>
+			<key>many</key>
+			<string>Скопировано на Mac · %ld элементов</string>
+			<key>other</key>
+			<string>Скопировано на Mac · %ld элемента</string>
+		</dict>
+	</dict>
+	<key>verification.devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Подключите одно устройство Android для проверки. Найдено: %ld устройство</string>
+			<key>few</key>
+			<string>Подключите одно устройство Android для проверки. Найдено: %ld устройства</string>
+			<key>many</key>
+			<string>Подключите одно устройство Android для проверки. Найдено: %ld устройств</string>
+			<key>other</key>
+			<string>Подключите одно устройство Android для проверки. Найдено: %ld устройства</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

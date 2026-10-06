@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>search.results</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld résultat</string>
+			<key>other</key>
+			<string>%ld résultats</string>
+		</dict>
+	</dict>
+	<key>selection.count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld élément sélectionné</string>
+			<key>other</key>
+			<string>%ld éléments sélectionnés</string>
+		</dict>
+	</dict>
+	<key>devices.detected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Recherche : %ld appareil</string>
+			<key>other</key>
+			<string>Recherche : %ld appareils</string>
+		</dict>
+	</dict>
+	<key>items.ready</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>%ld élément · Prêt</string>
+			<key>other</key>
+			<string>%ld éléments · Prêt</string>
+		</dict>
+	</dict>
+	<key>upload.started</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Envoi vers Android : %ld élément sélectionné</string>
+			<key>other</key>
+			<string>Envoi vers Android : %ld éléments sélectionnés</string>
+		</dict>
+	</dict>
+	<key>upload.completed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Copié vers Android · %ld élément sélectionné</string>
+			<key>other</key>
+			<string>Copié vers Android · %ld éléments sélectionnés</string>
+		</dict>
+	</dict>
+	<key>download.started</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Enregistrement sur Mac : %ld élément sélectionné</string>
+			<key>other</key>
+			<string>Enregistrement sur Mac : %ld éléments sélectionnés</string>
+		</dict>
+	</dict>
+	<key>download.completed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Copié vers Mac · %ld élément sélectionné</string>
+			<key>other</key>
+			<string>Copié vers Mac · %ld éléments sélectionnés</string>
+		</dict>
+	</dict>
+	<key>verification.devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>one</key>
+			<string>Connectez un seul appareil Android pour vérifier. Détecté : %ld appareil</string>
+			<key>other</key>
+			<string>Connectez un seul appareil Android pour vérifier. Détectés : %ld appareils</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

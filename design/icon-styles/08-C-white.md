@@ -1,0 +1,7 @@
+# 08-C: white background folder courier
+
+Review concept only, not installed or packaged. Created with the built-in image generation tool using 08-folder.png as the edit target. Preserves the green mascot, light blue folder, ivory arrows and soft clay style. Changes the tile background from blue to white with soft gray contact shadows. Original PNG alpha is preserved. Android attribution: see README.md.
+
+## Final prompt
+
+Use case: precise-object-edit. Create the white background variant 08-C of this Android Bridge app icon. Change ONLY the blue rounded-square background tile to elegant clean WHITE matte ceramic, with a very subtle cool pale-gray falloff and soft gray contact shadow beneath the mascot for depth. Tile should clearly appear white, not silver metallic, not cream, not blue. Preserve exactly the green Android mascot, its face, proportions, two antennae, pose, hands and feet; preserve the light sky-blue folder it is holding and the two ivory opposing horizontal transfer arrows on its front; preserve layout, icon scale, rounded-square tile geometry, soft clay texture and refined 3D style. Maintain clear distinction of folder from white background with existing pale blue color and modest natural shadows. No new objects, symbols, text, border, watermark, phone, cables or computer. Preserve actual transparent margins outside the rounded-square white tile. One icon only, square canvas.

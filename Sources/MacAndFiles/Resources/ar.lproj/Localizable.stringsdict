@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>search.results</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>zero</key>
+			<string>لا توجد نتائج (%ld)</string>
+			<key>one</key>
+			<string>نتيجة واحدة (%ld)</string>
+			<key>two</key>
+			<string>نتيجتان (%ld)</string>
+			<key>few</key>
+			<string>%ld نتائج</string>
+			<key>many</key>
+			<string>%ld نتيجة</string>
+			<key>other</key>
+			<string>%ld نتيجة</string>
+		</dict>
+	</dict>
+	<key>selection.count</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>zero</key>
+			<string>لا عناصر محددة (%ld)</string>
+			<key>one</key>
+			<string>عنصر محدد واحد (%ld)</string>
+			<key>two</key>
+			<string>عنصران محددان (%ld)</string>
+			<key>few</key>
+			<string>%ld عناصر محددة</string>
+			<key>many</key>
+			<string>%ld عنصرًا محددًا</string>
+			<key>other</key>
+			<string>%ld عنصر محدد</string>
+		</dict>
+	</dict>
+	<key>devices.detected</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>zero</key>
+			<string>البحث: لا أجهزة (%ld)</string>
+			<key>one</key>
+			<string>البحث: جهاز واحد (%ld)</string>
+			<key>two</key>
+			<string>البحث: جهازان (%ld)</string>
+			<key>few</key>
+			<string>البحث: %ld أجهزة</string>
+			<key>many</key>
+			<string>البحث: %ld جهازًا</string>
+			<key>other</key>
+			<string>البحث: %ld جهاز</string>
+		</dict>
+	</dict>
+	<key>items.ready</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>zero</key>
+			<string>%ld عنصر · جاهز</string>
+			<key>one</key>
+			<string>%ld عنصر · جاهز</string>
+			<key>two</key>
+			<string>عنصران (%ld) · جاهز</string>
+			<key>few</key>
+			<string>%ld عناصر · جاهز</string>
+			<key>many</key>
+			<string>%ld عنصرًا · جاهز</string>
+			<key>other</key>
+			<string>%ld عنصر · جاهز</string>
+		</dict>
+	</dict>
+	<key>upload.started</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>zero</key>
+			<string>الإرسال إلى Android: %ld عنصر</string>
+			<key>one</key>
+			<string>الإرسال إلى Android: %ld عنصر</string>
+			<key>two</key>
+			<string>الإرسال إلى Android: عنصران (%ld)</string>
+			<key>few</key>
+			<string>الإرسال إلى Android: %ld عناصر</string>
+			<key>many</key>
+			<string>الإرسال إلى Android: %ld عنصرًا</string>
+			<key>other</key>
+			<string>الإرسال إلى Android: %ld عنصر</string>
+		</dict>
+	</dict>
+	<key>upload.completed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>zero</key>
+			<string>تم النسخ إلى Android · %ld عنصر</string>
+			<key>one</key>
+			<string>تم النسخ إلى Android · %ld عنصر</string>
+			<key>two</key>
+			<string>تم النسخ إلى Android · عنصران (%ld)</string>
+			<key>few</key>
+			<string>تم النسخ إلى Android · %ld عناصر</string>
+			<key>many</key>
+			<string>تم النسخ إلى Android · %ld عنصرًا</string>
+			<key>other</key>
+			<string>تم النسخ إلى Android · %ld عنصر</string>
+		</dict>
+	</dict>
+	<key>download.started</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>zero</key>
+			<string>الحفظ على Mac: %ld عنصر</string>
+			<key>one</key>
+			<string>الحفظ على Mac: %ld عنصر</string>
+			<key>two</key>
+			<string>الحفظ على Mac: عنصران (%ld)</string>
+			<key>few</key>
+			<string>الحفظ على Mac: %ld عناصر</string>
+			<key>many</key>
+			<string>الحفظ على Mac: %ld عنصرًا</string>
+			<key>other</key>
+			<string>الحفظ على Mac: %ld عنصر</string>
+		</dict>
+	</dict>
+	<key>download.completed</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>zero</key>
+			<string>تم النسخ إلى Mac · %ld عنصر</string>
+			<key>one</key>
+			<string>تم النسخ إلى Mac · %ld عنصر</string>
+			<key>two</key>
+			<string>تم النسخ إلى Mac · عنصران (%ld)</string>
+			<key>few</key>
+			<string>تم النسخ إلى Mac · %ld عناصر</string>
+			<key>many</key>
+			<string>تم النسخ إلى Mac · %ld عنصرًا</string>
+			<key>other</key>
+			<string>تم النسخ إلى Mac · %ld عنصر</string>
+		</dict>
+	</dict>
+	<key>verification.devices</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@count@</string>
+		<key>count</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>ld</string>
+			<key>zero</key>
+			<string>صِل جهاز Android واحدًا للتحقق. المكتشف: %ld جهاز</string>
+			<key>one</key>
+			<string>صِل جهاز Android واحدًا للتحقق. المكتشف: %ld جهاز</string>
+			<key>two</key>
+			<string>صِل جهاز Android واحدًا للتحقق. المكتشف: جهازان (%ld)</string>
+			<key>few</key>
+			<string>صِل جهاز Android واحدًا للتحقق. المكتشف: %ld أجهزة</string>
+			<key>many</key>
+			<string>صِل جهاز Android واحدًا للتحقق. المكتشف: %ld جهازًا</string>
+			<key>other</key>
+			<string>صِل جهاز Android واحدًا للتحقق. المكتشف: %ld جهاز</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+name: Verify
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  website:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - run: python3 scripts/test-site.py
+  native:
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - run: brew install pkg-config
+      - run: scripts/build-libraries.sh
+      - run: scripts/test.sh && scripts/test-cli.sh && scripts/test-progress.sh && scripts/test-localization.sh && scripts/test-installation.sh
+      - run: scripts/build-app.sh
+      - name: Verify packaged app
+        run: |
+          ditto -x -k dist/MacAndFiles-macOS-arm64.zip "$RUNNER_TEMP/maf-verify"
+          codesign --verify --deep --strict "$RUNNER_TEMP/maf-verify/MacAndFiles.app"
+          "$RUNNER_TEMP/maf-verify/MacAndFiles.app/Contents/MacOS/maf" version

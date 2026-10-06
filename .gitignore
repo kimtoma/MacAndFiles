@@ -1,0 +1,12 @@
+.build/
+dist/
+.DS_Store
+
+.swiftpm/
+.env
+.env.*
+*.p12
+*.mobileprovision
+
+__pycache__/
+*.pyc
