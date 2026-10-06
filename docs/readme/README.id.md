@@ -20,7 +20,7 @@ Mengikuti bahasa pilihan macOS dan bahasa per aplikasi di Pengaturan Sistem → 
 
 ## Perilaku transfer
 
-Nama yang sudah ada menghentikan operasi tanpa menimpa. Unduhan ditulis ke file sementara dan diperiksa ukurannya sebelum nama akhir; unggahan memeriksa ukuran dari Android. Pembatalan atau kegagalan mempertahankan yang selesai dan mungkin menyisakan file parsial di Android. Folder disalin rekursif hingga kedalaman 128; tautan simbolis dan file khusus ditolak. Progres adalah untuk file aktif. Hanya konten MTP yang dapat diakses; hapus, ganti nama, dan pemasangan volume Finder belum tersedia.
+Nama yang sudah ada menghentikan operasi tanpa menimpa. Unduhan ditulis ke file sementara dan diperiksa ukurannya sebelum nama akhir; unggahan memeriksa ukuran dari Android. Pembatalan atau kegagalan mempertahankan yang selesai dan mungkin menyisakan file parsial di Android. Folder disalin rekursif hingga kedalaman 128; tautan simbolis dan file khusus ditolak. Progres mencakup file dan byte seluruh operasi. Hanya konten MTP yang dapat diakses; hapus, ganti nama, dan pemasangan volume Finder belum tersedia.
 
 ## Build dan verifikasi
 
