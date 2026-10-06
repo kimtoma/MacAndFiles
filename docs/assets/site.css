@@ -5,3 +5,4 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .brand{white-space:nowrap;flex-shrink:0}.brand img{flex-shrink:0}
 @media(max-width:360px){.nav>a{display:none}}
+p:lang(ko),h2:lang(ko),li:lang(ko),summary:lang(ko){word-break:keep-all}
